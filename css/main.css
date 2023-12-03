@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "inter";
+}
+@font-face {
+  font-family: "inter";
+  src: url(../Inter/static/Inter-ExtraBold.ttf);
 }
 a {
   text-decoration: none;
@@ -33,7 +38,7 @@ a:hover {
 .nav {
   display: flex;
   justify-content: center;
-  gap: 270px;
+  gap: 232px;
   align-items: center;
   flex-wrap: wrap;
 }
